@@ -30,6 +30,7 @@ import Viloyatmus from './components/ViloyatMus/Viloyatmus';
 import Tumanrahbariyat from './components/Rahbariyat/tumanrahbariyat';
 import Adminpanel from './components/Admin/Adminpanel';
 import DeleteAdmin from './components/Admin/Deletedadmin'
+import Login from './components/Admin/Login';
 
 class Home extends Component {
     render() {
@@ -62,6 +63,9 @@ class Home extends Component {
                 <Routes>
                     <Route path='/' element={
                         <Asosiy/>
+                    }/>
+                    <Route path='/login' element={
+                        <Login/>
                     }/>
                     <Route path='/admin' element={
                         <Adminpanel/>

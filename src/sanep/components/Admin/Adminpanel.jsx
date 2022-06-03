@@ -48,7 +48,6 @@ const Adminpanel = () => {
 							Submit
 						</Button>
 					</form>
-					
 				</div>
 			</div>
 		</>
